@@ -12,12 +12,13 @@ public class Reto3Calculadora {
     public static void main(String[] args) throws IOException {
         String respuesta;
         double valor1, valor2,resultado;
-        System.out.println("¿Qué operación desea realizar?");
-        respuesta = entrada.readLine();
+        
         System.out.println("Digita el primer número:");
         valor1 = Double.parseDouble(entrada.readLine());
         System.out.println("Digita el segundo número:");
         valor2 = Double.parseDouble(entrada.readLine());
+        System.out.println("¿Qué operación desea realizar?");
+        respuesta = entrada.readLine();
         
         switch(respuesta){
             case "Suma":
